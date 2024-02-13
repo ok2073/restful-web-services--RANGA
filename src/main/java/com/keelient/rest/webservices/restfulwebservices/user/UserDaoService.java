@@ -4,13 +4,14 @@ import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
+
 
 @Component
 public class UserDaoService {
     private static List<User> users = new ArrayList<>();
+
 
     private static int usersCount = 0;
 
